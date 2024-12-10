@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="content">
+			<h1>Homework 19_2</h1>
+			<h2>Новый пост</h2>
+			<form action="" method="post" novalidate>
+				<input
+					type="text"
+					placeholder="Введите заголовок поста"
+					name="post"
+					id="title" />
+				<input
+					type="text"
+					placeholder="Введите текст поста"
+					name="post"
+					id="body" />
+				<input type="button" value="Создать пост" id="createPost" />
+			</form>
+			<p class="error"></p>
+			<h2 id="newPost">Мои посты</h2>
+			<div id="posts"></div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
